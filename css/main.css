@@ -1,0 +1,20 @@
+html {
+  box-sizing: html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+img {
+  width: 2rem;
+}
+
+body {
+  margin: 0;
+}
+
+
+}
