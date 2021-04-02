@@ -1,5 +1,5 @@
 html {
-  box-sizing: html {
+  box-sizing:
     box-sizing: border-box;
     font-family: sans-serif;
   }
@@ -10,11 +10,20 @@ html {
 
 img {
   width: 2rem;
+  background-color: red;
 }
 
 body {
-  margin: 0;
+  background-color: #e2e2e2;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
+h1 {
+  background-color: grey;
+}
 
+ul li {
+  display: flex;
 }
