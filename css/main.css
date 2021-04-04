@@ -11,10 +11,12 @@ img {
   width: 2rem;
   background-color: red;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
   background-color: grey;
+  font-size: 1.125rem;
 }
 
 ul li {
@@ -22,17 +24,20 @@ ul li {
   background-color: yellow;
 }
 
-header {
-  background-color: #e2e2e2;
-  display: flex;
-  flex-direction: row;
-  font-size: .75rem;
+header ul li a {
+  text-decoration: none;
+  color: red;
+  padding: 0 .5rem;
+  text-transform: auto;
 }
 
-img {
-  margin: 0;
-  padding-left: .75em;
-  width: 2rem;
+header {
+  background-color: green;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  /*justify-content: space-around;*/
 }
 
 ul {
@@ -43,7 +48,7 @@ ul {
   padding: 0.75em;
 }
 
-h1 {
-  margin-left: 0.5rem;
-
+header p {
+  font-style: italic;
+  padding-top: 1rem;
 }
